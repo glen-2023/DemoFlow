@@ -87,7 +87,7 @@ pipeline {
 
 
 		     //Run Job
-		    stage('Run')
+		    stage('Run') {
 			    steps {
 				    UiPathRunJob( 
                     credentials: UserPass('Zx8cDl-Rsp5YUpv65pmbULh45Y78eUoY3tXYE3UlDt_MA'), 
@@ -103,6 +103,7 @@ pipeline {
 					strategy: Robot('Robot'), traceLevel: 'None', waitForJobCompletion: true
             )
 				}
+			}
 	
 
 	    // Options
