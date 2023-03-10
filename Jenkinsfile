@@ -84,6 +84,22 @@ pipeline {
 	                }
 	            }
 	    }
+		    stage('Build')
+			    steps {
+				    UiPathRunJob( 
+                    credentials: UserPass('Zx8cDl-Rsp5YUpv65pmbULh45Y78eUoY3tXYE3UlDt_MA'), 
+                    failWhenJobFails: true, 
+                    folderName: 'Shared', 
+                    jobType: Unattended(), 
+					orchestratorAddress: 'https://cloud.uipath.com/stepotdnoplz/DefaultTenant/orchestrator_', 
+					orchestratorTenant: 'DefaultTenant', 
+					parametersFilePath: 'C:\\Users\\glen.serrao\\Documents\\UiPath\\Addition\\project.json', 
+					priority: 'Low', 
+					processName: 'Addition_Main.xaml', 
+					resultFilePath: '', 
+					strategy: Robot('Robot'), traceLevel: 'None', waitForJobCompletion: true
+            )
+				}
 	
 
 	    // Options
