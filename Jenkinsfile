@@ -84,7 +84,7 @@ pipeline {
 	                }
 	            }
 	    }
-		    stage('Build')
+		    stage('Run')
 			    steps {
 				    UiPathRunJob( 
                     credentials: UserPass('Zx8cDl-Rsp5YUpv65pmbULh45Y78eUoY3tXYE3UlDt_MA'), 
