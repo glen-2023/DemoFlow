@@ -106,6 +106,7 @@ pipeline {
 	        }
 	        always {
 	            /* Clean workspace if success */
+		  echo 'Deployment has been completed!'
 	        }
 	    }
 	
