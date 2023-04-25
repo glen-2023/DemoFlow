@@ -20757,8 +20757,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\glen.serrao\\.nuget\\packages\\": {},
-    "C:\\Users\\glen.serrao\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
+    "C:\\Users\\glen.serrao\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
@@ -20766,10 +20765,7 @@
       "projectName": "Location",
       "projectPath": "C:\\Users\\glen.serrao\\Documents\\UiPath\\Addition\\.local",
       "packagesPath": "C:\\Users\\glen.serrao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\glen.serrao\\Documents\\UiPath\\Addition\\.local",
-      "fallbackFolders": [
-        "C:\\Users\\glen.serrao\\AppData\\Local\\UiPath\\NugetFallbackFolder"
-      ]
+      "outputPath": "C:\\Users\\glen.serrao\\Documents\\UiPath\\Addition\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
