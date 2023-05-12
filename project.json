@@ -4,7 +4,9 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.17.0-preview]",
+    "UiPath.GitHub.IntegrationService.Activities": "[5.0.7]",
     "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.Pipelines.Activities": "[1.0.5-preview]",
     "UiPath.System.Activities": "[22.10.4]",
     "UiPath.Testing.Activities": "[22.12.0-preview]",
     "UiPath.UIAutomation.Activities": "[22.10.4]"
